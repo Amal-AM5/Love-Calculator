@@ -1,7 +1,9 @@
-var n = Math.random() * 100 + 1;
-n = Math.round(n);
+
 
 function alertMsg() {
+    var n = Math.random() * 100 + 1;
+    n = Math.round(n);
+    
     var textOne = document.getElementById('text-one').value;
     var textTwo = document.getElementById('text-two').value;
 
